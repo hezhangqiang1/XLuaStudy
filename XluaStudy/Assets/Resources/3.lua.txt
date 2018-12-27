@@ -1,0 +1,7 @@
+a=100
+str="hezhangqiang"
+isDie=false
+
+user = {
+Usename=123,Password=456
+}

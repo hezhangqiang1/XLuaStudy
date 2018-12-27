@@ -1,0 +1,26 @@
+--[[
+print("1111111")
+tab1={key1="111",key2="222"}
+print (tab1.key1)
+
+tab2={"he","qiang","zhang"}
+for key,val in pairs(tab2) do
+      print(key..":"..val)
+end
+
+tab1.key3="666"
+print(tab1.key3)
+--]]
+
+myprint=function (param)
+print ("zhishiwodecanshu",param)
+end
+
+myprint(10)
+
+function add(num1,num2,printnum)
+ local r=num1+num2
+printnum(r)
+end
+
+add(50,60,myprint)
